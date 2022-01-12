@@ -29,6 +29,7 @@ namespace HomeWork_7
         {
             Application.Start();
             Console.ReadKey();
+            Console.WriteLine("Hello World");
         }
     }
 }
