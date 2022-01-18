@@ -14,7 +14,7 @@ namespace Lib.Infrastructure
             get { return db[index]; }
         }
         public int Count { get { return db.Length; } }
-        Note[] db;
+        public Note[] db;
         public Col(string name)
         {
             db = new Note[0];
@@ -31,12 +31,18 @@ namespace Lib.Infrastructure
         public void Remove (int index)
         {
             int count = db.Length;
+            int findIndex = -1;
+            for (int i = 0; i < count; i++)
+            {
+                if (db[i].Id == index) findIndex = i;
+            }
+            if (findIndex == -1) return;
             for(int i = index; i < count-1; i++)
             {
                 db[index] = db[index + 1];
             }
             Array.Resize(ref db, db.Length - 1);
-        }
+        }       
         public void Edit (int index, Note note)
         {
             db[index] = note;

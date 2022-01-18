@@ -51,7 +51,7 @@ namespace HomeWork_7
             bool r = false;
             do
             {
-                Console.Write("ID: ");
+                Console.Write("Индекс: ");
                 r = int.TryParse(Console.ReadLine(), out index);
             }
             while (!r);
@@ -62,18 +62,39 @@ namespace HomeWork_7
         {
             while(true)
             {
-                Console.Write(@"Что делать ? 1 Добавить  2 Удалить 3 Показать 4 Импорт 5 Выход ");
+                Console.Write(@"Что делать ? 1 Добавить  2 Удалить 3 Показать 4 Импорт 5 Сортировка 6 Сохранить 7 Выход ");
                 string user = Console.ReadLine();
                 switch(user)
                 {
                     case "1": notepad.Add(GetNote()); break;
-                    case "2": break;
+                    case "2": notepad.Remove(GetIndex()); break;
                     case "3": Console.WriteLine(notepad.Print()); break;
                     case "4": break;
-                    case "5": break;
+                    case "5": notepad.SortByDate(); break;
+                    case "6": break;
+                    case "7": break;
                     default: Console.WriteLine("Угу, так и сделаем"); break;
                 }
             }          
+        }
+        static string GetPath()
+        {
+            string path = string.Empty;
+            do
+            {
+                Console.Write("Имя файла: ");
+                path = Console.ReadLine();
+                for (int i = 0; i < path.Length; i++)
+                {
+                    if (true)
+                    {
+
+                    }
+                }
+
+            } while (true);
+
+            return path;
         }
     }
 }

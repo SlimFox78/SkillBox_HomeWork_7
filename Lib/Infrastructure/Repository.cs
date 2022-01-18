@@ -19,7 +19,8 @@ namespace Lib.Infrastructure
                 t[i] = new Note
                 {
                     Id = i + 1,
-                    Date = DateTime.Now + new TimeSpan(ticks: rand.Next(30 * 24 * 60 * 60, 80 * 24 * 60 * 60)),
+                    Date = DateTime.Now +
+                        new TimeSpan(days: rand.Next(28), hours:0, minutes:0, seconds:0),
                     Titel= $"Заголовок_{i+1}",
                     Text=Guid.NewGuid().ToString(),
                     FirstName=$"Имя_{i+1}",

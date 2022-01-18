@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Infrastructure\Col.cs" />
+    <Compile Include="Infrastructure\DataSaver.cs" />
     <Compile Include="Models\Note.cs" />
     <Compile Include="Notepad.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

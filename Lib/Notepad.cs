@@ -43,5 +43,13 @@ namespace Lib
             }
             return t.ToString();
         }
+        public void SortByDate()
+        {
+            Array.Sort(cols.db, sortByDate);
+        }
+        private int sortByDate(Note x, Note y)
+        {
+            return x.Date < y.Date ? -1 : x.Date == y.Date ? 0 : 1;
+        }
     }
 }
