@@ -8,8 +8,7 @@ using System.Threading.Tasks;
 /// В ежедневнике реализовать возможность 
 /// - создания
 /// - удаления
-/// - реактирования 
-/// записей
+/// - реактирования записей
 /// 
 /// В отдельной записи должно быть не менее пяти полей
 /// 
@@ -29,7 +28,6 @@ namespace HomeWork_7
         {
             Application.Start();
             Console.ReadKey();
-            Console.WriteLine("Hello World");
         }
     }
 }

@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Home\\source\\repos\\HomeWork_7\\HomeWork_7\\HomeWork_7.csproj": {}
+    "C:\\Users\\SlimFox\\source\\repos\\skillbox_homework_7\\HomeWork_7\\HomeWork_7.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Home\\source\\repos\\HomeWork_7\\HomeWork_7\\HomeWork_7.csproj": {
+    "C:\\Users\\SlimFox\\source\\repos\\skillbox_homework_7\\HomeWork_7\\HomeWork_7.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Home\\source\\repos\\HomeWork_7\\HomeWork_7\\HomeWork_7.csproj",
+        "projectUniqueName": "C:\\Users\\SlimFox\\source\\repos\\skillbox_homework_7\\HomeWork_7\\HomeWork_7.csproj",
         "projectName": "HomeWork_7",
-        "projectPath": "C:\\Users\\Home\\source\\repos\\HomeWork_7\\HomeWork_7\\HomeWork_7.csproj",
-        "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Home\\source\\repos\\HomeWork_7\\HomeWork_7\\obj\\",
+        "projectPath": "C:\\Users\\SlimFox\\source\\repos\\skillbox_homework_7\\HomeWork_7\\HomeWork_7.csproj",
+        "packagesPath": "C:\\Users\\SlimFox\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SlimFox\\source\\repos\\skillbox_homework_7\\HomeWork_7\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SlimFox\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Home\\source\\repos\\HomeWork_7\\Lib\\Lib.csproj": {
-                "projectPath": "C:\\Users\\Home\\source\\repos\\HomeWork_7\\Lib\\Lib.csproj"
+              "C:\\Users\\SlimFox\\source\\repos\\skillbox_homework_7\\Lib\\Lib.csproj": {
+                "projectPath": "C:\\Users\\SlimFox\\source\\repos\\skillbox_homework_7\\Lib\\Lib.csproj"
               }
             }
           }
@@ -65,11 +62,11 @@
         }
       }
     },
-    "C:\\Users\\Home\\source\\repos\\HomeWork_7\\Lib\\Lib.csproj": {
+    "C:\\Users\\SlimFox\\source\\repos\\skillbox_homework_7\\Lib\\Lib.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Home\\source\\repos\\HomeWork_7\\Lib\\Lib.csproj",
+        "projectUniqueName": "C:\\Users\\SlimFox\\source\\repos\\skillbox_homework_7\\Lib\\Lib.csproj",
         "projectName": "Lib",
-        "projectPath": "C:\\Users\\Home\\source\\repos\\HomeWork_7\\Lib\\Lib.csproj",
+        "projectPath": "C:\\Users\\SlimFox\\source\\repos\\skillbox_homework_7\\Lib\\Lib.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
