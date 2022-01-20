@@ -11,7 +11,9 @@ namespace Lib
     public class Notepad
     {
         string path;
-        Col cols;       
+        Col cols;
+        
+        public Note[] Notes { get { return cols.db; } }
         public Notepad(string path)
         {
             this.path = path;

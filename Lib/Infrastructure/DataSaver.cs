@@ -27,6 +27,7 @@ namespace Lib.Infrastructure
                 sw.WriteLine(item.FirstName);
                 sw.WriteLine(item.Date);
                 sw.WriteLine(item.Text);
+                sw.WriteLine();
 
             }
             sw.Close();

@@ -71,7 +71,7 @@ namespace HomeWork_7
                     case "3": Console.WriteLine(notepad.Print()); break;
                     case "4": break;
                     case "5": notepad.SortByDate(); break;
-                    case "6": break;
+                    case "6": new DataSaver(notepad.Notes).Save(GetPath()); break;
                     case "7": break;
                     default: Console.WriteLine("Угу, так и сделаем"); break;
                 }
@@ -84,17 +84,20 @@ namespace HomeWork_7
             {
                 Console.Write("Имя файла: ");
                 path = Console.ReadLine();
+                bool f = true;
                 for (int i = 0; i < path.Length; i++)
-                {
-                    if (true)
+                {                    
+                    if (Char.IsLetterOrDigit(path[i]))
                     {
-
-                    }
+                        f = false;
+                        break;
+                    }   
                 }
+                if (f) break;
 
             } while (true);
 
-            return path;
+            return $"{path}.txt";
         }
     }
 }
